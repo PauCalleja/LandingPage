@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="media/lol-logo.png" type="image/x-icon">
+
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/League_of_Legends_2019_vector.svg" alt="League of Legends Logo" class="logo">
+        <nav class="nav-links">
+            <a href="#noticias">Noticias</a>
+            <a href="#campeones">Campeones</a>
+            <a href="#modos">Modos de Juego</a>
+            <a href="#esports">Esports</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+<!-- Hero -->
+<section class="hero">
+    <video autoplay muted loop class="hero-video">
+        <source src="media/lolvideo.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+        <h1>Bienvenido a League of Legends</h1>
+        <p>Descubre más sobre la grieta del invocador.</p>
+        <a href="#noticias" class="btn">Saber más</a>
+    </div>
+</section>
+
+<!-- Noticias -->
+    <section id="noticias" class="section texto-section">
+        <h2>Noticias</h2>
+        <p>Noticias recientes sobre LoL</p>
+        <div class="noticias">
+            <div class="noticia-item">
+                <img src="media/af7173f343e6f253fb19efaf7f30ae8c095021ca-1920x1080.avif" alt="Noticia 1">
+                <p class="noticia-texto">Notas de la versión 25.S1.2</p>
+            </div>
+            <div class="noticia-item">
+                <img src="media/82a8694ffde5d91cc853ed86e3373427d9a203e3-1920x1080.avif" alt="Noticia 2">
+                <p class="noticia-texto">Mel Nueva Campeona</p>
+            </div>
+            <div class="noticia-item">
+                <img src="media/834e774d4ab03597fc92e29263b192739bf93cfc-1920x1080.avif" alt="Noticia 3">
+                <p class="noticia-texto">Masters 2025 de EMEA</p>
+            </div>
+        </div>
+    </section>
+
+<div class="barra-separadora"></div>
+
+<!-- Campeones-->
+    <section id="campeones" class="section texto-section">
+        <h2>Campeones</h2>
+        <p>Lanzarse en medio del combate, apoyar a tus aliados... Prefieras lo que prefieras, encontrarás tu sitio en la Grieta.</p>
+        <div class="campeones">
+            <div class="campeon-item">
+                <img src="media/befd42ad6d2564159a441d08cfc3bf511532eb74-1628x1628.avif" alt="Campeón 1">
+                <p class="campeon-nombre">Akali</p>
+                <p class="campeon-rol">Asesino</p>
+            </div>
+            <div class="campeon-item">
+                <img src="media/70c26e49de8a2c79ac3de144772d2debd195edff-1628x1628.avif" alt="Campeón 2">
+                <p class="campeon-nombre">Yasuo</p>
+                <p class="campeon-rol">Luchador</p>
+            </div>
+            <div class="campeon-item">
+                <img src="media/f136500bd46f823d37515a72b867425d3a0b3e54-1628x1628.avif" alt="Campeón 3">
+                <p class="campeon-nombre">Jinx</p>
+                <p class="campeon-rol">Tirador</p>
+            </div>
+            <div class="campeon-item">
+                <img src="media/ff6c8c57411e5c7e0551b02334fccedc78866143-1628x1628.avif" alt="Campeón 4">
+                <p class="campeon-nombre">Lux</p>
+                <p class="campeon-rol">Mago</p>
+            </div>
+            <div class="campeon-item">
+                <img src="media/dbdded937cd214bb2a1189697a9e4f49f8c04505-1628x1628.avif" alt="Campeón 5">
+                <p class="campeon-nombre">Thresh</p>
+                <p class="campeon-rol">Apoyo</p>
+            </div>
+        </div>
+    </section>
+
+<div class="barra-separadora"></div>
+
+<!-- Modos -->
+<section id="modos" class="section texto-section">
+    <h2>Modos de Juego</h2>
+    <p>Varias formas de Jugar</p>
+    <div class="modos">
+        <div class="modos-item">
+            <video autoplay muted loop class="modos-video">
+                <source src="media/bbc27473157462adacf0de441a8796268eb2d0ac.mp4" type="video/mp4">
+            </video>
+            <p class="modos-texto">Grieta del Invocador</p>
+        </div>
+        <div class="modos-item">
+            <video autoplay muted loop class="modos-video">
+                <source src="media/0a9b9f8dacb54086c58c1af8aa880d7cf6d7fea6.mp4" type="video/mp4">
+            </video>            
+            <p class="modos-texto">ARAM</p>
+        </div>
+        <div class="modos-item">
+            <video autoplay muted loop class="modos-video">
+                <source src="media/e5791dbc0787a96e83b82df20d44375f09f4d861.mp4" type="video/mp4">
+            </video> 
+            <p class="modos-texto">TeamFight Tactics</p>
+        </div>
+    </div>
+</section>
+
+<div class="barra-separadora"></div>
+
+<!-- Esports -->
+    <section id="esports" class="section texto-section">
+        <a href="https://lolesports.com" class="btn">Descubre más</a>
+    </section>
+
+<!-- Contacto -->
+    <section id="contacto" class="section texto-section">
+        <h2>Contacto</h2>
+        <p>Déjanos un mensaje para más información.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <p>&copy; Pau Calleja LoL Landing Page</p>
+    </footer>
